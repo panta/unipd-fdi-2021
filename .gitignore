@@ -1,0 +1,45 @@
+# system files
+._*
+.DS_Store
+
+# IDE files
+*.sublime‐project
+*.sublime‐workspace
+/.idea/
+.vscode/
+*.xcodeproj/
+
+# backup files
+*.bak
+*~
+
+# object files, executables, ...
+*.o
+*.a
+*.so
+*.ko
+*.pyc
+*.exe
+*.dll
+*.dylib
+*.so
+*.lo
+*.la
+*.dSYM/
+
+# cmake stuff
+CMakeCache.txt
+CMakeFiles/
+.vs/
+*.o.d
+*.ninja
+.ninja*
+.dirstamp
+
+# misc stuff
+.depend
+*.swp
+*.log
+
+# build directory
+/build
