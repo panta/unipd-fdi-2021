@@ -76,4 +76,5 @@ Il testo completo della licenza è disponibile nel file `COPYING`.
 Per tutto il materiale, ove non diversamente specificato:
 
 Copyright (C) 2020-2021 Marco Pantaleoni. Tutti i diritti riservati.
+
 Copyright (C) 2020-2021 Marco Pantaleoni. All rights reserved.
