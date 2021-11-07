@@ -8,7 +8,7 @@
  *   e che calcoli e visualizzi le radici reali (se presenti).
  * 
  * Compilare con:
- *   gcc -std=c99 -Wall -Wextra -Wstrict-prototypes -Wconversion -Werror -o e6 e6.c
+ *   gcc -std=c99 -Wall -Wextra -Wstrict-prototypes -Wconversion -Werror -o e6 e6.c -lm
  */
 
 #include <stdio.h>
