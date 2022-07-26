@@ -29,14 +29,13 @@ int main(void)
         if (ch == EOF)
             break;
 
-        if (isalpha(ch))
-        {
-            /* o stiamo iniziando una nuova parola o siamo nel mezzo di una esistente */
-            in_word = true;
-        } else if (in_word)
-        {
-            /* stiamo "chiudendo" una parola, contiamola e chiudiamola */
-            n_words++;
+        if (isalpha(ch)) {
+            if (!in_word) {
+                /* stiamo iniziando una nuova parola */
+                in_word = true;
+                n_words++;
+            }
+        } else {
             in_word = false;
         }
     }
